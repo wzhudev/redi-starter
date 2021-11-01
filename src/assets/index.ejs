@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-framework="typescript">
+
+<head>
+  <meta charset="utf-8">
+  <title>redi • starter</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    var isPc = (function () {
+      var userAgentInfo = navigator.userAgent;
+      if (/(iPhone|iPad|iPod|iOS)/i.test(userAgentInfo)) {
+          return false;
+        } else if (/(Android)/i.test(userAgentInfo)) {
+          return false;
+        } else {
+          return true;
+        }
+    })();
+    var script = document.createElement('script');
+    if (isPc) {
+      script.src = '<%= htmlWebpackPlugin.files.js[0]%>';
+    } else {
+      script.src = '<%= htmlWebpackPlugin.files.js[1]%>';
+    }
+    document.body.appendChild(script);
+  </script>
+</body>
+
+</html>
