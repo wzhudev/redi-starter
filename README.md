@@ -4,8 +4,12 @@ The scaffold for [redi](https://redi.wendell.fun). Check out the [TodoMVC demo](
 
 ## Features
 
-- Out-of-box dev environment with redi inside! React, TypeScript, webpack, ESLint, Jest and prettier.
+- Out-of-box dev toolchain, with *redi* inside. React, TypeScript, webpack, ESLint, Jest and prettier.
 - Build from differently entries and ship different bundles on different devices. For example, you won't ship `PcPlatformService` to mobile devices and vice versa.
+
+## Usage
+
+
 
 ## License
 

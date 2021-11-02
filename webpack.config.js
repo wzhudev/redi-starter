@@ -83,5 +83,6 @@ module.exports = {
     stats: 'minimal',
     clientLogLevel: 'warning',
   },
+  // TODO@wendellhu95: auto open browser
   devtool: isProduction ? 'hidden-source-map' : 'cheap-module-eval-source-map',
 }
