@@ -9,7 +9,17 @@ The scaffold for [redi](https://redi.wendell.fun). Check out the [TodoMVC demo](
 
 ## Usage
 
+Just clone this project
 
+```bash
+git clone https://github.com/wendellhu95/redi-starter.git
+``` 
+
+If you do not want to have git history you can use degit:
+
+```bash
+npx degit https://github.com/wendellhu95/redi-starter
+```
 
 ## License
 
