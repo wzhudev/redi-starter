@@ -2,7 +2,7 @@
   "name": "redi-starter",
   "version": "0.0.1",
   "dependencies": {
-    "@wendellhu/redi": "^0.3.0",
+    "@wendellhu/redi": "^0.6.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "rxjs": "^6.5.4"
